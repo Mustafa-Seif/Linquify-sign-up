@@ -1,0 +1,227 @@
+/* START FONTS  */
+@font-face {
+  font-family: "Cera light";
+  src: url("/assets/fonts/cera-gr-light.otf");
+}
+@font-face {
+  font-family: "Cera bold";
+  src: url("/assets/fonts/cera-gr-bold.otf");
+}
+/* END FONTS  */
+
+/* START GLOBAL VARIABLES   */
+:root {
+  --primary-color: #de362e;
+  --second-color: #0066ff;
+  --dark-color: #000000;
+  --gray-color: #333333;
+  --light-color: #ffffff;
+  --ceraLight-font: "Cera light";
+  --ceraLight-font: "Cera bold";
+  --font-size: 16px;
+}
+/* END GLOBAL VARIABLES  */
+
+/* START GENERAL STYLES  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cera light", "Courier New", Courier, monospace;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+}
+p {
+  font-family: "Cera light", "Courier New", Courier, monospace;
+}
+h4,
+h5 {
+  font-family: "Cera bold", "Courier New", Courier, monospace;
+}
+
+input {
+  border-radius: 0 !important;
+}
+
+input::placeholder {
+  color: #0000004d;
+}
+
+/* END GENERAL STYLES  */
+
+.left-section {
+  width: 40%;
+}
+
+.carousel-item img {
+  width: 100% !important;
+  height: 19rem;
+  /* border: solid 1px black; */
+  display: inline-block;
+  margin: auto;
+}
+.carousel-indicators button {
+  /* background-color: rgb(73, 175, 19); */
+  border-radius: 50% !important;
+  height: 0.5rem !important;
+  width: 0.5rem !important;
+}
+
+.navbar-toggler {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 2rem;
+  margin-right: 3rem;
+}
+.navbar-toggler:focus {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.navbar-one {
+  padding: 2.8rem 0;
+}
+.navbar-nav li .demo {
+  border: solid 1px #de362e;
+  color: #de362e;
+  text-align: center;
+  width: 12.875rem;
+  height: 2.5rem;
+}
+.navbar-nav li .demo:hover {
+  border: solid 1px #de362e;
+  color: #fff;
+  background-color: #de362e;
+  text-align: center;
+  width: 12.875rem;
+  height: 2.5rem;
+}
+
+.carousel-item {
+  /* text-align: center; */
+  /* border: solid 1px red; */
+}
+
+.right-section {
+  margin-left: 10rem;
+  margin-top: 5.1rem;
+  /* margin-bottom: 33rem !important; */
+  width: 40%;
+}
+
+.right-section form input {
+  width: 25rem;
+  box-shadow: none !important;
+}
+
+button.custom-prev-one {
+  /* background-color: blue; */
+  right: 2rem;
+  left: initial;
+}
+
+.carousel-caption {
+  position: relative;
+  right: initial;
+  bottom: initial;
+  left: initial;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+
+  color: black;
+  /* margin-top: 5rem !important; */
+}
+
+.wrapper-indicatorsOne {
+  /* position: relative !important;
+display: flex; */
+}
+.wrpper-indicators-one {
+  position: relative;
+  top: 0;
+  left: 0;
+  /* border: solid 1px red; */
+  justify-content: end;
+  /* background-color: #ad1616; */
+}
+.wrpper-indicators-one div {
+  /* float: right; */
+  width: 7px !important;
+  height: 5px !important;
+  border-radius: 50%;
+  background-color: #de362e !important;
+}
+
+/* .wrpper-indicators-one li {
+  list-style-type: none;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #f9dbd9;
+} */
+.wrapper-indicatorsOne .active {
+  background-color: rgb(0, 255, 26) !important;
+}
+/* ///////////////////////////// */
+
+.btnSubmit-form {
+  width: 25rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  background-color: #de362e;
+  color: #fff;
+  border: none;
+}
+.form-indicators {
+  /* bottom: -6rem !important; */
+
+  /* margin: auto; */
+  /* border: solid 1px red; */
+  position: relative !important;
+  left: 0;
+  top: 2.5rem;
+}
+.form-indicators div {
+  border-radius: 50% !important;
+  height: 0.75rem !important;
+  width: 0.75rem !important;
+  background-color: #de362e !important;
+  margin-right: 1rem !important;
+}
+
+.sliderOne-btn-wrapper #prev {
+  transition: 0.3s ease-in-out all;
+  width: 0;
+}
+/* /////////////////btn slider/////////////// */
+
+.slider-btn {
+  /* padding: 2rem !important; */
+  /* border: solid 1px red; */
+}
+.slider-btn span svg {
+  cursor: pointer;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}

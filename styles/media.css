@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+.left-section{
+  width: 100% !important;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.right-section{
+  width: 100% !important;
+  margin: auto;
+
+}
+.right-section form input {
+  width: 100%;
+}
+.btnSubmit-form{
+  width: 100%;
+}
+
+}
