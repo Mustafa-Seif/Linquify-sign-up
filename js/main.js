@@ -17,9 +17,5 @@ document.addEventListener('DOMContentLoaded', function() {
       var currentIndex = Array.from(carouselItems).indexOf(carousel.querySelector('.active'));
       var currentSlide = currentIndex + 1;
       slideCounter.textContent = currentSlide + ' Out of ' + totalSlides;
-      if (currentIndex + 1 == 1) {
-    prevBtn.style.width='0px'
-        
-      }
     });
   });

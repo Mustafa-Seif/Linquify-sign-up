@@ -87,7 +87,7 @@
       <div class="container">
         <div class="d-flex flex-wrap justify-content-lg-center">
           <section class="left-section">
-            <div id="carouselOne" class="carousel slide" data-bs-ride="true">
+            <div id="carouselOne" class="carousel slide position-static" data-bs-ride="true">
               <div>
                 <div
                   class="carousel-inner"
@@ -174,102 +174,103 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="overflow-auto slider-indicators-wrapper">
-              <div
-                class="sliderOne-btn-wrapper float-end d-flex justify-content-center"
-              >
-                <div class="d-flex">
-                  <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide="prev"
-                    class="slider-btn me-1"
-                  >
-                    <span aria-hidden="true"
-                      ><svg
-                        id="prev"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="25"
-                        height="25"
-                        fill="currentColor"
-                        class="bi bi-arrow-left-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
-                        /></svg
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </div>
-                  <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide="next"
-                    class="slider-btn"
-                    id="next"
-                  >
-                    <span aria-hidden="true"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="25"
-                        height="25"
-                        fill="currentColor"
-                        class="bi bi-arrow-right-circle"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
-                        /></svg
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </div>
-                </div>
-              </div>
-              <div class="float-end me-1 position-relative">
-                <small
-                  class="mb-0 lh-0 position-absolute top me-1"
-                  id="slideCounter"
-                  >1 Out of 6
-                </small>
+              <div class="overflow-auto slider-indicators-wrapper">
                 <div
-                  class="carousel-indicators wrpper-indicators-one mt-2 me-0"
+                  class="sliderOne-btn-wrapper float-end d-flex justify-content-center"
                 >
+                  <div class="d-flex">
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide="prev"
+                      class="slider-btn me-1"
+                    >
+                      <span aria-hidden="true"
+                        ><svg
+                          id="prev"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="25"
+                          height="25"
+                          fill="currentColor"
+                          class="bi bi-arrow-left-circle"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+                          /></svg
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </div>
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide="next"
+                      class="slider-btn"
+                      id="next"
+                    >
+                      <span aria-hidden="true"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="25"
+                          height="25"
+                          fill="currentColor"
+                          class="bi bi-arrow-right-circle"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                          /></svg
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="float-end me-1 position-relative">
+                  <small
+                    class="mb-0 lh-0 position-absolute top me-1"
+                    id="slideCounter"
+                    >1 Out of 6
+                  </small>
                   <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></div>
-                  <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></div>
-                  <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></div>
-                  <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide-to="3"
-                    aria-label="Slide 4"
-                  ></div>
-                  <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide-to="4"
-                    aria-label="Slide 5"
-                  ></div>
-                  <div
-                    data-bs-target="#carouselOne"
-                    data-bs-slide-to="5"
-                    aria-label="Slide 6"
-                  ></div>
+                    class="carousel-indicators wrpper-indicators-one mt-2 me-0"
+                  >
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></div>
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></div>
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></div>
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide-to="3"
+                      aria-label="Slide 4"
+                    ></div>
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide-to="4"
+                      aria-label="Slide 5"
+                    ></div>
+                    <div
+                      data-bs-target="#carouselOne"
+                      data-bs-slide-to="5"
+                      aria-label="Slide 6"
+                    ></div>
+                  </div>
                 </div>
               </div>
             </div>
+  
           </section>
           <!-- START RIGHT SECTION -->
           <section class="right-section">
