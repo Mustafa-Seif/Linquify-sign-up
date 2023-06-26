@@ -102,7 +102,7 @@ small {
 }
 
 .logo-img{
-  margin-left: 5rem;
+  margin-left: 6rem;
 }
 .navbar-nav li .demo {
   border: solid 1px #de362e;
@@ -124,7 +124,13 @@ small {
   margin-top: 5.1rem;
   /* width: 40%; */
 }
+#carouselForm .carousel-inner{
+  margin-top: 0 !important;
+}
 
+.right-side-text{
+  margin-bottom: 2rem;
+}
 .right-section form input {
   width: 25rem;
   box-shadow: none !important;
