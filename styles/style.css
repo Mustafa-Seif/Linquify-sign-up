@@ -71,7 +71,7 @@ small {
 }
 .carousel-inner {
   cursor: pointer;
-  margin-top: 4rem;
+  margin-top: 7rem;
 }
 .carousel-item img {
   width: 100% !important;
@@ -183,7 +183,9 @@ button.custom-prev-one {
   background-color: #de362e !important;
   margin:0 .5rem !important;
 }
-
+.slider-indicators-wrapper{
+  margin-top: 9rem !important;
+}
 .sliderOne-btn-wrapper #prev {
   transition: 0.3s ease-in-out all;
   width: 0;
