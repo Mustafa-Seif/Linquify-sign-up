@@ -74,8 +74,8 @@ small {
   margin-top: 7rem;
 }
 .carousel-item img {
-  width: 100% !important;
-  height: 19rem;
+  width: 23rem !important;
+  height: 17.813rem !important;
   display: inline-block;
   margin: auto;
 }
@@ -194,15 +194,3 @@ button.custom-prev-one {
   cursor: pointer;
 }
 
-.carousel-fade .carousel-item{
-  opacity: 0;
-  transition: 1s ease-in-out all !important;
-}
-
-.carousel-fade .carousel-item.active,
-.carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right {
-  transition: 1s ease-in-out all !important;
-
-  opacity: 1;
-}

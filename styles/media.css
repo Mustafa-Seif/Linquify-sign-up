@@ -36,5 +36,12 @@
 .left-section{
   margin-top: 7rem;
 }
-
+.dropdown{
+  width: 12.875rem;
+  height: 2.5rem;
+}
+.right-section {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
 }
