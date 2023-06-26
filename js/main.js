@@ -14,11 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var totalSlides = carouselItems.length;
   
     carousel.addEventListener('slid.bs.carousel', function() {
-      if (currentIndex + 1 == 1) {
-        prevBtn.style.width='0px'
-      }
       var currentIndex = Array.from(carouselItems).indexOf(carousel.querySelector('.active'));
       var currentSlide = currentIndex + 1;
       slideCounter.textContent = currentSlide + ' Out of ' + totalSlides;
+      if (currentIndex + 1 == 1) {
+    prevBtn.style.width='0px'
+        
+      }
     });
   });
