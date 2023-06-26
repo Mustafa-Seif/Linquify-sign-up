@@ -30,4 +30,8 @@
   margin: auto !important;
 }
 
+.navbar-collapse {
+  margin-right: 0 !important;
+}
+
 }
