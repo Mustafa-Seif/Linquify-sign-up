@@ -99,6 +99,10 @@ small {
 .navbar-one {
   padding: 2.8rem 0;
 }
+
+.logo-img{
+  margin-left: 5rem;
+}
 .navbar-nav li .demo {
   border: solid 1px #de362e;
   color: #de362e;
