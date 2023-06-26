@@ -4,3 +4,18 @@ const prevBtn = document.getElementById("prev");
 nextBtn.addEventListener('click',()=>{
     prevBtn.style.width='25px'
 })
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var carousel = document.getElementById('carouselOne');
+    var slideCounter = document.getElementById('slideCounter');
+    var carouselItems = carousel.getElementsByClassName('carousel-item');
+    var totalSlides = carouselItems.length;
+  
+    carousel.addEventListener('slid.bs.carousel', function() {
+      var currentIndex = Array.from(carouselItems).indexOf(carousel.querySelector('.active'));
+      var currentSlide = currentIndex + 1;
+      slideCounter.textContent = currentSlide + ' Out of ' + totalSlides;
+    });
+  });

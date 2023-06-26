@@ -117,7 +117,7 @@ small {
 .right-section {
   margin-left: 10rem;
   margin-top: 5.1rem;
-  width: 40%;
+  /* width: 40%; */
 }
 
 .right-section form input {
@@ -166,14 +166,11 @@ button.custom-prev-one {
   position: relative !important;
   left: 0;
   top: 2.5rem;
-  width: 25rem !important;
-  margin-left:.5rem !important ;
+ 
   /* right: 6rem !important; */
 }
 
-.right-side-text{
-    width: 25rem;
-}
+
 .form-indicators div {
   border-radius: 50% !important;
   height: 0.75rem !important;
@@ -190,13 +187,15 @@ button.custom-prev-one {
   cursor: pointer;
 }
 
-.carousel-fade .carousel-item {
+.carousel-fade .carousel-item{
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: 1s ease-in-out all !important;
 }
 
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
 .carousel-fade .carousel-item-prev.carousel-item-right {
+  transition: 1s ease-in-out all !important;
+
   opacity: 1;
 }
