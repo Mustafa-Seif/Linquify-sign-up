@@ -18,6 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
       var currentSlide = currentIndex + 1;
       if (currentSlide === 1) {
         prevBtn.style.width='0px'
+      }else{
+        prevBtn.style.width='25px'
+
       }
       slideCounter.textContent = currentSlide + ' Out of ' + totalSlides;
     });

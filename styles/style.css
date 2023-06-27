@@ -203,3 +203,18 @@ button.custom-prev-one {
   cursor: pointer;
 }
 
+
+
+
+
+.carousel-item {
+  transition: opacity 300ms ease-in-out !important;
+}
+.carousel-item.fade-next,
+.carousel-item.fade-prev {
+  opacity: 0;
+}
+.carousel-item.fade-next.active,
+.carousel-item.fade-prev.active {
+  opacity: 1;
+}
